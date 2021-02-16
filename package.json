@@ -20,6 +20,7 @@
     "clean": "rm -f coverage.json; rm -rf .coverage_cache; rm -rf .coverage_contracts; rm -rf cache; rm -rf coverage; rm -rf typechain; rm -rf artifacts",
     "compile": "npx hardhat compile",
     "coverage": "yarn clean && yarn build && npx hardhat coverage --temp artifacts",
+    "deploy-mock": "hardhat run --no-compile scripts/deploy-mock.ts --network localhost",
     "etherscan:verify": "hardhat --network kovan etherscan-verify --solc-input --license 'None'",
     "fix-typechain": "node scripts/fix-typechain.js && yarn rename-extensions",
     "flatten": "npx waffle flatten",

@@ -43,6 +43,12 @@ OR `yarn test:clean` if contracts have been typings need to be updated
 
 `yarn coverage`
 
+### Subgraph development
+
+Start empty hardhat chain with `yarn chain`
+
+Deploy mock environment with `yarn deploy-mock`
+
 ## Contributing
 We highly encourage participation from the community to help shape the development of Set. If you are interested in developing on top of Set Protocol or have any questions, please ping us on [Telegram](https://t.me/joinchat/Fx8D6wyprLUlM1jMVnaRdg).
 
